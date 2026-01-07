@@ -1,0 +1,33 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f4f4f4;
+  padding: 2rem;
+}
+
+#crypto-wrapper {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  gap: 1rem;
+}
+
+.crypto-card {
+  background-color: white;
+  padding: 1rem;
+  border-radius: 10px;
+  cursor: pointer;
+  border: 3px solid silver;
+  text-align: center;
+}
+
+.crypto-card:hover {
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.15);
+}
+
+.crypto-name {
+  font-weight: bold;
+  margin-bottom: 0.5rem;
+}
+
+.crypto-price {
+  color: #333;
+}
