@@ -28,7 +28,4 @@ fetch("https://api.coingecko.com/api/v3/coins/markets?vs_currency=usd")
 
       wrapper.appendChild(card);
     });
-  })
-  .catch((error) => {
-    console.error("Error fetching crypto:", error);
   });
